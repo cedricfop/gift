@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentification-Site de Vente en Ligne</title>
+    <link rel="stylesheet" href="styles.css">
+   <style>
+    body {
+        background-image: url(image_processing20191030-10403-jcnl2g.gif);
+    }
+   </style>
+</head>
+
+<body>
+ <h1>Authentification</h1>
+ <form action="dashboard.html">
+    <label for="username">identification</label>
+    <input type="text" id="username"
+    placeholder="Votre mot de passe" required><br><br>
+    <label for="passeword">Mot de passe</label>
+    <input type="password" id="password"
+    placeholder="Votre mot de passe" required><br><br>
+    <input type="checkbox" id="remember">
+    <label for="country">Pays:</label>
+    <select id="country">
+        <option value="France">France</option>
+        <option value="usa">USA</option>
+        <option value="Cameroun">Cameroun</option>
+        <option value="Canada">Canada</option>
+    </select><br><br>
+<button type="submit">Se connecter</button>
+ </form> 
+</body>
+</html>
